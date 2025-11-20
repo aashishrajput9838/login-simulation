@@ -57,26 +57,7 @@ export default function Header() {
                 >
                   Dashboard
                 </a>
-              ) : (
-                <a 
-                  href="/signup" 
-                  className={`${pathname === '/signup' ? 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white' : 'text-gray-500 hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}
-                >
-                  Sign Up
-                </a>
-              )}
-              <a 
-                href="#" 
-                className="text-gray-500 hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Features
-              </a>
-              <a 
-                href="#" 
-                className="text-gray-500 hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Support
-              </a>
+              ) : null}
             </nav>
           </div>
           
