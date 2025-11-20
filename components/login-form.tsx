@@ -38,7 +38,7 @@ export function LoginForm() {
 
   return (
     <div className="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="card w-full max-w-md space-y-8 shadow-lg">
+      <div className="card w-full max-w-md space-y-8 shadow-lg p-8">
         <div>
           <div className="mx-auto h-16 w-16 rounded-full gradient-bg flex items-center justify-center">
             <Lock className="h-8 w-8 text-white" />
