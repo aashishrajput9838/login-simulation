@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+.npm
+
+# Next.js
+.next/
+out/
+
+# Development
+.pnpm-debug.log*
+.nyc_output
+
+# Testing
+coverage
+
+# Environment variables
+.env*.local
+
+# IDEs and editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Temporary folders
+tmp/
+temp/
+
+# Build outputs
+dist/
+build/
+
+# Local files
+*.local
