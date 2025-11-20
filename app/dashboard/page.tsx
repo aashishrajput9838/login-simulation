@@ -41,12 +41,6 @@ export default function DashboardPage() {
                   Welcome back, {user?.name}!
                 </p>
               </div>
-              <button 
-                onClick={handleLogout}
-                className="btn-destructive"
-              >
-                Logout
-              </button>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
